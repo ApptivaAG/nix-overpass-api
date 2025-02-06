@@ -19,4 +19,8 @@
           };
         };
     };
+  nixConfig.extra-substituters = [ "https://apptiva.cachix.org" ];
+  nixConfig.extra-trusted-public-keys = [
+    "apptiva.cachix.org-1:zfBxOLn+X21gqmFWJDjM9zB3qhUwXyWo1qCECsYacrk="
+  ];
 }
